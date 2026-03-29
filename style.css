@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    margin: 8px;
+    padding: 20px;
+    width: 300px;
+    height: auto; 
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    
+}
+
+.card button {
+    padding: 8px 16px;
+    width: auto;
+    height: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit {
+    margin-top: 8px;
+}
+
+.card h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+.card p {
+    font-family: "Inter", sans-serif;
+}
+
+.card button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.card input {
+    padding: 8px 12px;
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: 23px;
+    font-family: "Roboto", sans-serif;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.card input::placeholder {
+    color: white
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.forget {
+    display: flex;
+    margin-top: 5px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.forget:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
