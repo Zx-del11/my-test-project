@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .card {
+        width: 80%;
+        max-width: 350px;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .card {
+        width: 95%;
+        margin: 10px 0;
+    }
+    
+    .card button {
+        width: 100%;
+    }
+    
+    .card input {
+        width: 100%;
+    }
+}
+
+
 body {
     background-image: url(img/back.jpg);
     background-repeat: no-repeat;
@@ -99,9 +130,3 @@ body {
 .forget:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
